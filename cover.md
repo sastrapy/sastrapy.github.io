@@ -1,4 +1,8 @@
-# Sastrapy
+<p align="center">
+  <a href="https://docsify.js.org">
+    <img alt="docsify" src="./assets/sastrapy.svg">
+  </a>
+</p>
 
 > Sastrapy adalah pengolah teks sederhana untuk Bahasa Indonesia.
 

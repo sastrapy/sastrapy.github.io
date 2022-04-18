@@ -48,7 +48,7 @@ Kalian bisa menggunakan kamus bahasa sendiri dengan menuliskan kode di bawah ini
 ```python
 machine.importDictionary('path/to/slang_dictionary.txt')
 ```
-Kamus yang ada harus berformat `.txt` dan struktur nya bisa dilihat di halaman `kamus`
+Kamus yang ada harus berformat `.txt` dan struktur nya bisa dilihat di halaman [Kamus Slang](/dictionary/slang.md)
 
 ### Reset kamus
 Jika ingin mengembalikan kamus ke bentuk semula, tulis kode di bawah ini sebelum proses pengolahan kata nya

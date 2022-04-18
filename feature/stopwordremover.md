@@ -37,7 +37,7 @@ Jika kalian ingin menggunakan kamus stopword sendiri, silahkan tambahkan kode di
 ```python
 machine.importDictionary('path/to/stopword_dictionary.txt')
 ```
-Kamus stopword harus dalam format `.txt` dengan format mengikuti panduan yang ada di dalam halaman `kamus`
+Kamus stopword harus dalam format `.txt` dengan format mengikuti panduan yang ada di dalam halaman [Kamus Stopword](/dictionary/stopword.md)
 
 ### Reset kamus
 Jika kalian ingin mereset kamus kembali ke pengaturan semula (kamus yang digunakan Sastrapy secara default) silahkan tambahkan kode di bawah ini sebelum proses pengolahan teks dilakukan.

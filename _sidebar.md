@@ -1,5 +1,5 @@
 - Mulai Sastrapy
-  - [Pengenalan](readme.md)
+  - [Pengenalan](README.md)
   - [Instalasi](instalation.md)
 - Fitur Sastrapy
   - [Tokenization](feature/tokenization.md)

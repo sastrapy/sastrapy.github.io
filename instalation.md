@@ -12,10 +12,11 @@ python3 -m pip --version
 Untuk memasang sastrapy cukup jalankan perintah di bawah ini. Silahkan salin untuk memudahkan penulisan.
 ```bash
 pip install Sastrapy
-
-# atau
+```
+Atau jika kode di atas tidak bisa, gunakan kode di bawah
+```bash
 python3 -m pip install Sastrapy
 ```
 
 ## Penggunaan
-Untuk mulai menggunakan Sastrapy, silahkan buat projek python baru atau projek python notebook baru. Kemudian detail penggunaannya bisa kalian lihat pada halaman `feature`
+Untuk mulai menggunakan Sastrapy, silahkan buat projek python baru atau projek python notebook baru. Kemudian detail penggunaannya bisa kalian lihat pada halaman [Fitur Sastrapy](feature/tokenization.md)

@@ -39,6 +39,23 @@ machine.importDictionary('path/to/stopword_dictionary.txt')
 ```
 Kamus stopword harus dalam format `.txt` dengan format mengikuti panduan yang ada di dalam halaman [Kamus Stopword](/dictionary/stopword.md)
 
+### Menambahkan data kamus
+Kode import di atas akan me-replace kamus default dari Sastrapy. Jika kalian ingin menambahkan data kamus tanpa me-replace nya, gunakan kode di bawah ini
+```python
+machine.addDictionary('path/to/more_stopword_dictionary.txt')
+```
+Atau bisa juga kalian masukan dalam bentuk `list`
+```python
+machine.addDictionary(['list', 'stopword', 'baru'])
+```
+!> **Important** tipe data kamus stopword  adalah list. Jadi pastikan yang diinputkan adalah list atau file `.txt` seperti pada halaman [Kamus Stopword](/dictionary/stopword.md)
+
+### Mendapatkan data kamus
+Jika kalian ingin melihat kamus yang ada di dalam Sastrapy, gunakan kode di bawah ini
+```python
+dictionary = machine.getDictionary()
+```
+
 ### Reset kamus
 Jika kalian ingin mereset kamus kembali ke pengaturan semula (kamus yang digunakan Sastrapy secara default) silahkan tambahkan kode di bawah ini sebelum proses pengolahan teks dilakukan.
 ```python

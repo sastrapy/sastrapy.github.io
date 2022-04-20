@@ -50,6 +50,27 @@ machine.importDictionary('path/to/slang_dictionary.txt')
 ```
 Kamus yang ada harus berformat `.txt` dan struktur nya bisa dilihat di halaman [Kamus Slang](/dictionary/slang.md)
 
+### Menambahkan data kamus
+Kode import di atas akan me-replace kamus default dari Sastrapy. Jika kalian ingin menambahkan data kamus tanpa me-replace nya, gunakan kode di bawah ini
+```python
+machine.addDictionary('path/to/more_slang_dictionary.txt')
+```
+Atau bisa juga kalian masukan dalam bentuk `dict`
+```python
+newData = {
+  'cnt': 'cinta', 
+  'rnd': 'rindu'
+}
+machine.addDictionary(newData)
+```
+!> **Important** tipe data kamus slang converter adalah dict bukan list. Jadi pastikan yang diinputkan adalah dict atau file `.txt` seperti pada halaman [Kamus Slang](/dictionary/slang.md)
+
+
+### Mendapatkan data kamus
+Jika kalian ingin melihat kamus yang ada di dalam Sastrapy, gunakan kode di bawah ini
+```python
+dictionary = machine.getDictionary()
+```
 ### Reset kamus
 Jika ingin mengembalikan kamus ke bentuk semula, tulis kode di bawah ini sebelum proses pengolahan kata nya
 ```python
